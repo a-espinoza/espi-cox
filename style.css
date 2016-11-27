@@ -1,0 +1,48 @@
+html{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  height: 100vh;
+  display: flex;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #a90329; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+body{
+  text-align: center;
+  align-content: space-between;
+  margin: auto;
+}
+
+h1{
+  font-size: 15vh;
+}
+h2{
+  font-size: 2vh;
+  margin-top: -5vh;
+}
+
+footer{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3eaed+0,f2f5f6+48,f2f5f6+48,f2f5f6+50,c8d7dc+100 */
+  background: rgb(227,234,237); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(227,234,237,1) 0%, rgba(242,245,246,1) 48%, rgba(242,245,246,1) 48%, rgba(242,245,246,1) 50%, rgba(200,215,220,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(227,234,237,1) 0%,rgba(242,245,246,1) 48%,rgba(242,245,246,1) 48%,rgba(242,245,246,1) 50%,rgba(200,215,220,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(227,234,237,1) 0%,rgba(242,245,246,1) 48%,rgba(242,245,246,1) 48%,rgba(242,245,246,1) 50%,rgba(200,215,220,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3eaed', endColorstr='#c8d7dc',GradientType=1 ); /* IE6-9 */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: black;
+  background-color: white;
+  width:100vw;
+  height: 3vh;
+ }
+
+ h3{
+  color: grey;
+  text-align: center;
+ }
